@@ -1,9 +1,15 @@
+import { Header } from './components/header/header';
+import { Home } from './components/home/home';
+import { Footer } from './components/footer/footer';
+
 import './App.css';
 
 export function App() {
   return (
     <div className="App">
-      <p>hola mundo</p>
+      <Header/>
+      <Home/>
+      <Footer/>
     </div>
   );
 }
